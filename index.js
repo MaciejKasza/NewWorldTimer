@@ -2,7 +2,7 @@
 function calcClockFontSize() {
   const wrapper = document.querySelector(".wrapper");
 
-  const fontSize = Math.floor(110 * (wrapper.clientWidth / 1920));
+  const fontSize = Math.floor(100 * (wrapper.clientWidth / 1920));
 
   return fontSize;
 }
